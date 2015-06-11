@@ -9,4 +9,4 @@ Reference:
 Youtube link of the snapshot of this program:
 https://www.youtube.com/watch?v=PF2FALawKV0
 
-The user mannual of the program will be available soon.
+User mannual of the program will be available soon.
