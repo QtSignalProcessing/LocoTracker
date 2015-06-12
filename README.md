@@ -6,7 +6,7 @@ Reference:
 
 2.Minmin Shen, Paul Szyszka, Oliver Deussen, C. Giovanni Galizia, Dorit Merhof, “Automated Tracking and Analysis of Behavior in Restrained Insects”, Journal of Neuroscience Methods, vol. 239, pp. 194-205, Jan. 2015.
 
-Youtube link of the snapshot of this program:
+Youtube link of the screenshot  of this program:
 https://www.youtube.com/watch?v=PF2FALawKV0
 
 User mannual of the program will be available soon.
