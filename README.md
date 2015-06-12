@@ -1,5 +1,5 @@
 # LocoTracker
-LocalTracker is a software designed for tracking the moving parts of fixed-position honey-bees.
+LocoTracker is a software designed for tracking the moving parts of fixed-position honey-bees.
 
 Reference: 
 1.Minmin Shen, Chen Li, Wei Huang, Paul Szyszka, Kimiaki Shirahama, Marcin Grzegorzek, Dorit Merhof, and Oliver Duessen, "Interactive Tracking of Insect Posture," Pattern Recognition, accepted.
