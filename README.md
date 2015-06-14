@@ -8,5 +8,3 @@ Reference:
 
 Youtube link of the screenshot  of this program:
 https://www.youtube.com/watch?v=PF2FALawKV0
-
-User mannual of the program will be available soon.
