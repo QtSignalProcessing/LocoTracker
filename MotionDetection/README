@@ -1,0 +1,19 @@
+Design Overview : Main -> MainWindow -> VideoProcessing -> ( Preprocess, FeatureExtraction, Display )
+
+Class Details : 
+MainWindow : Handle video file loading and other menu options
+
+VideoProcessing : 1. Main GUI, (DisplayWidget, buttons, etc.) 
+                  2. Extracting frames from video(cv::VideoCapture)
+                  3. Frame background substraction(cv::BackgroundSubtractorMOG2)
+                 
+Preprocess      : 1. void computeMeanAndStd(const QString& filename,int numOfFrames); : compute mean and std of numOfFrames frames of the objective video (calling place : VideoProcessing constructor )
+                  2. findBeeHead (calling place : processing for each frame)
+                  3. brightnessDistortion : compute shadowMask for shadowRemoval 
+                  4. legalRect : exclude BBs (1): totally in beehead, 
+                                             (2): not attaching to the beehead  
+                  5. shadowRemoval : detect BBs of shadows 
+
+
+ 最便宜： 3月27-4月15
+ 如果可行 3月27-4月19
