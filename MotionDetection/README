@@ -1,19 +1,29 @@
-Design Overview : Main -> MainWindow -> VideoProcessing -> ( Preprocess, FeatureExtraction, Display )
+Operating System
+-----------------------
+This project is developed on Linux(Mint 17.2), and successfully ported to windows7.
+There should not be much problems when porting this project to Mac.
+----------------------- 
 
-Class Details : 
-MainWindow : Handle video file loading and other menu options
+Library requirements
+------------------------
+OpenCV 2.4.x
+Qt 4.8.x
+------------------------
 
-VideoProcessing : 1. Main GUI, (DisplayWidget, buttons, etc.) 
-                  2. Extracting frames from video(cv::VideoCapture)
-                  3. Frame background substraction(cv::BackgroundSubtractorMOG2)
-                 
-Preprocess      : 1. void computeMeanAndStd(const QString& filename,int numOfFrames); : compute mean and std of numOfFrames frames of the objective video (calling place : VideoProcessing constructor )
-                  2. findBeeHead (calling place : processing for each frame)
-                  3. brightnessDistortion : compute shadowMask for shadowRemoval 
-                  4. legalRect : exclude BBs (1): totally in beehead, 
-                                             (2): not attaching to the beehead  
-                  5. shadowRemoval : detect BBs of shadows 
+Files
+------------------------
+Windows: Please put 130529_ok_Trace Conditioning_part1_shot2.avi, as well as other video files and
+ann.txt, man.txt, prob.txt in the same folder of the SOURCE CODE.
 
+Linux: Please put 130529_ok_Trace Conditioning_part1_shot2.avi, as well as other video files and
+ann.txt, man.txt, prob.txt in the same folder of the DEBUG/RELEASE.
+------------------------
 
- 最便宜： 3月27-4月15
- 如果可行 3月27-4月19
+Edit .pro file:
+------------------------
+The "INCLUDEPATH" and "LIBS" should be edited for compiling. 
+------------------------
+
+NOTE:
+If you have any problems/suggestions, please feel free to contact to the author:
+duan.le@uni-konstanz.de
