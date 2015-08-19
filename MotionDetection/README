@@ -1,13 +1,13 @@
 Operating System
 -----------------------
-This project is developed on Linux(Mint 17.2), and successfully ported to windows7.
+This project is developed on Linux(Mint 16), and successfully ported to windows7.
 There should not be much problems when porting this project to Mac.
 ----------------------- 
 
 Library requirements
 ------------------------
-OpenCV 2.4.x
-Qt 4.8.x
+OpenCV 2.4.x 
+Qt 4.8.x (Using Qt 5.x may cause asynchronization problem.)
 ------------------------
 
 Files
